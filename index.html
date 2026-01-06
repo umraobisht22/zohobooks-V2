@@ -88,7 +88,7 @@
           <form class="hero-form" id="myForm"
             action="https://forms.hubspot.com/uploads/form/v2/23736002/688d8b8a-37c8-4bf1-bd94-9e2e31d4c0d8"
             method="post">
-            <input name="first_name" type="text" class="hero-input mb20" placeholder="First Name" />
+            <input name="first_name" id="first_name" type="text" class="hero-input mb20" placeholder="First Name" />
             <input name="last_name" type="text" class="hero-input mb20" placeholder="Last Name" />
             <input name="email" type="email" class="hero-input mb20" placeholder="Work Email" required />
             <input name="company" type="text" class="hero-input mb20" placeholder="Company Name" required />
@@ -1040,7 +1040,7 @@
         with Supertron
       </h2>
       <div class="slider-container">
-        <div class="flex overflow-scroll slider">
+        <div class="flex overflow-scroll slider" id="slider">
           <div class="slide">
             <h3 class="whiteheadingnormal mb20">Digital Workspace</h3>
             <p class="whiteparah normal">
@@ -1109,7 +1109,7 @@
             </ul>
           </div>
         </div>
-        <div class="slider-fade-right">
+        <div class="slider-fade-right" id="slider-fade-right">
         </div>
       </div>
 
@@ -1164,7 +1164,8 @@
 
 
   <!-- scripts -->
-  <script src="https://zoho.supertroninfotech.com/zohocrm-en/zoho-crm-partner/script.js"></script>
+  <script src="./zoho-books/script.js"></script>
+  <!-- <script src="https://zoho.supertroninfotech.com/zohocrm-en/zoho-crm-partner/script.js"></script> -->
   <script>
     function redirectWithQuery(targetUrl) {
       var searchParams = new URLSearchParams(window.location.search);
@@ -1190,6 +1191,11 @@
         top: 0,
         behavior: "smooth",
       });
+
+      setTimeout(() => {
+        const focusInput = document.getElementById("first_name");
+        if (focusInput) focusInput.focus();
+      }, 800);
     }
 
     // Migration Tools
@@ -1229,6 +1235,7 @@
     }
 
     showTab(0);
+
   </script>
 </body>
 

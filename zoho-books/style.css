@@ -492,6 +492,10 @@ body {
   background: linear-gradient(270deg, #0E0E0E 22.6%, rgba(14, 14, 14, 0) 100%);
 }
 
+.slider-fade-right.hidden {
+  opacity: 0;
+}
+
 .slide {
   background: #0069ec;
   padding: 40px;
@@ -644,9 +648,9 @@ body {
   font-size: 40px;
 }
 
-.slider-heading{
-    font-size: 40px;
-  }
+.slider-heading {
+  font-size: 40px;
+}
 
 
 .footer-cta {
@@ -1441,6 +1445,12 @@ body {
     font-size: 30px;
     line-height: 130%;
     text-align: center;
+  }
+
+
+  .robotImg {
+    max-width: 340px;
+    height: auto;
   }
 
   /* Footer Section Stying end */
