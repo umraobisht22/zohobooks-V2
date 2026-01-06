@@ -193,7 +193,6 @@ function checkScrollEnd() {
 
   fadeRight.classList.toggle("hidden", atEnd)
 
-  console.log("***********" + atEnd + "***********")
 }
 
 slider.addEventListener("scroll", checkScrollEnd)
