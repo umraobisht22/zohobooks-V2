@@ -1,0 +1,3 @@
+company_name,timestamp,confidence_score,domain,employees,revenue,url_visited,click_id,utm_source,utm_medium,utm_campaign,utm_term,utm_content,utm_id,ip_address,conversion_status
+GrowthSpree,2025-12-05T09:09:27.320447Z,,https://growthspreeofficial.com,51-200,,https://www.growthspreeofficial.com/?gclid=12312412,12312412,null,null,null,null,null,null,103.225.186.9,Not Sent
+GrowthSpree,2025-12-05T09:09:27.412785Z,,https://growthspreeofficial.com,51-200,,https://www.growthspreeofficial.com/?utm_source=csource&utm_medium=cmedium&utm_campaign=cname&utm_id=cid&utm_term=cterm&utm_content=ccontent&gclid=gclidid,gclidid,csource,cmedium,cname,cterm,ccontent,cid,103.225.186.9,Not Sent
